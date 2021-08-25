@@ -1,51 +1,13 @@
 'use strict';
 
-// To String
+// let x = 5; 
+// alert( x++ ); 
+// console.log([ ] + false - null + true);
 
-// 1
-console.log(typeof(String(null)));
-console.log(typeof(String(4)));
-
-// 2
-console.log(typeof(null+''));
-
-const num = 5;
-
-console.log("https://vk.com/catalog/" + num);
-
-const fontSize = 26 + 'px';
-
-// To Number
-
-// 1
-console.log(typeof(Number('5')));
-
-// 2
-
-console.log(typeof(+'5'));
-
-// 3
-
-console.log(typeof(parseInt("15px", 10)));
-
-let answer = +prompt("sfdgsfg");
-
-// To Boolean
-// 1)
-0, '', null, undefined, NaN; //false
-
-let switcher = null;
-
-if (switcher){
-    console.log('Working...');
-}
-switcher = 1;
-if (switcher){
-    console.log('Working...');
-}
-// 2)
-
-console.log(typeof(Boolean('5')));
-// 3)
-
-console.log(typeof(!!('5')));
+// let y = 1; 
+// let x = y = 2;
+let a = [1, 2, 3]; 
+let b = [1, 2, 3];  
+console.log( "123"[2]); 
+console.log(2 && 1 && null && 0 && undefined); // И запинается на лжи - вернется null
+console.log(0 || "" || 2 || undefined || true || falsе); // ИЛИ запинается на правде- вернется 2
